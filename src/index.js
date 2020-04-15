@@ -29,6 +29,8 @@ export default (options = {}) => {
     /** CSS modules */
     modules: inferOption(options.modules, false),
     namedExports: options.namedExports,
+    /** List CSS assets */
+    assets: inferOption(options.assets, false),
     /** Automatically CSS modules for .module.xxx files */
     autoModules: options.autoModules,
     /** Options for cssnano */
